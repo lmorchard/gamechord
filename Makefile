@@ -53,7 +53,8 @@ SRC =	keymap_common.c \
 	matrix.c
 
 #SRC := keymap_plain.c $(SRC)
-SRC := keymap_halfqwerty.c $(SRC)
+#SRC := keymap_halfqwerty.c $(SRC)
+SRC := keymap_stream_control.c $(SRC)
 
 CONFIG_H = config.h
 
